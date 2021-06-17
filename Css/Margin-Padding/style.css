@@ -1,0 +1,12 @@
+.box1{
+  margin: 1em 2em 3em; /*1em = 16 px*/
+  background: red;
+  width: 200px;
+  height: 200px;
+}
+.box2{
+  padding: 1em 2em 3em;
+  background: red;
+  width: 200px;
+  height: 200px;
+}

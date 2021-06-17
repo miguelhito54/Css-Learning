@@ -1,0 +1,27 @@
+.block{
+  display: inline-block;
+  width: 200px;
+}
+
+.inline{
+/*text is inline by default*/
+}
+
+.inline::first-letter{
+  color: blue;
+  font-size: 20px
+/*text is inline by default*/
+}
+
+.inline::selection{
+  color: violet;
+  background: black;
+}
+
+.dolar::before{
+   content: '$'
+}
+
+.dolar::after{
+  content: 'holis'
+}

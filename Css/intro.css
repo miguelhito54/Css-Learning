@@ -1,0 +1,82 @@
+/*selector de etiqueta*/
+p {
+}
+
+/*selector de clase*/
+.title {
+  /*...*/
+}
+
+/*selector de id*/ 
+#title {
+  /*...*/
+}
+
+/*selector universal*/
+* {
+  /*...*/
+}
+
+/*selectores de atributo, colocar estilo a todos los que tienen el atributo */
+
+[href] {
+  /*...*/
+}
+
+/*colocar estilo a todos los que tienen el atributo y el valor */
+[href="#"] {
+  /*...*/
+}
+
+/*selectores de elemento con virgulilla, para colocar estilo a todos
+ los que tienen el atributo y el valor 1 vez independiente del
+ orden en que este escrito*/
+[class~="#"] {
+  /*...*/
+}
+
+/*selector con pipe, colocar valor exacto, o que empiece
+con el valor y seguido de un guion*/
+[class|="#"] {
+  /*...*/
+}
+
+/*empieza con el atributo*/
+[class^="#"] {
+  /*...*/
+}
+
+/*termina con el atributo*/
+[class$="#"] {
+  /*...*/
+}
+
+/*contiene el atributo y el valor*/
+[class*="#"] {
+  /*...*/
+}
+
+/*SELECTORES COMBINADOS*/
+
+/*selector de hermano adyacente, el + quiere decir hermano*/
+h1 + h2{
+    color: red;
+}
+
+h1 + h1{
+    color: blue;
+}
+
+/*selector de hermano general, todos los p debajo de h1, para los de arriba se debe usar js*/
+h1 ~ p {
+    color: green;
+}
+/*selector decendentes*/
+ div span {
+     color:red;
+ }
+/*selector de hijo directo*/
+
+ div > span{
+     color:blue;
+ }

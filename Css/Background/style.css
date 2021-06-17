@@ -1,0 +1,111 @@
+[class^="bg-"]{
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: center;
+      margin: 0 auto;
+      height: 150px;
+      border: 1px solid red;
+}
+body{
+  text-align: center;
+}
+.bg-color{
+  background-color: blueviolet;
+}
+.bg-image{
+  background-image: url('assets/freddie.jpg');
+}
+.bg-size{
+  background-size: contain;
+  
+  background-image: url('assets/freddie.jpg');  
+}
+.bg-repeat{
+  background-repeat: no-repeat;
+  
+  background-size: contain;
+  background-image: url('assets/freddie.jpg');
+}
+.bg-position{
+  background-position: center;
+
+  background-size: cover;
+  background-image: url('assets/freddie.jpg');
+}
+.bg-origin{
+  background-origin: border-box;
+  
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-image: url('assets/freddie.jpg');
+}
+.bg-clip{
+  background-clip: border-box;
+  
+  background-size: cover;
+  background-image: url('assets/freddie.jpg');
+
+}
+
+.bg-attachment{
+  background-attachment: fixed;
+
+  background-size:contain ;
+  background-image: url('assets/freddie.jpg');
+
+}
+
+.bg-multiple{
+  background-image: 
+    url('assets/dog.png'),
+    url('assets/freddie.jpg');
+  
+  background-size: 8%, cover; 
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+
+
+                                /*  COMENTARIOS  */
+/*
+background-color: Establece el color de fondo de la caja
+
+background-image:url(ruta) Establece la imagen de fondo de la caja
+
+background-repeat: Establece si la imagen se repite o no
+    repeat-x|repeat-y|no-repeat
+
+background-size: Establece el tamaño de la imagen de fondo
+    x [y]|auto|cover|contain. 
+    el valor en y es opcional, si no se lo ponemos lo calcula automáticamente
+    cover = cubre la caja por completo, aunque la imagen escape del contenedor
+    contain = la imagen se ajusta al contenido
+
+background-position: Establece la posicion de la imagen, si no se especifica un segundo valor será center
+    left top
+    left center
+    left bottom
+    right top
+    right center
+    right bottomaw
+    center top
+    center center
+    center bottom
+    x% y%
+    xpos ypos
+    initial
+    inherit
+
+background-clip: Establece que parte de la caja rellenará el fondo
+    Muestra la imagen desde donde le decimos, solo oculta, NO redimensiona
+    border-box|padding-box|content-box
+
+background-origin: Establece donde comienza el fondo
+    Redimensiona la imagen para que ocupe la zona que le decimos
+    border-box|padding-box|content-box
+
+background-attachment: permite establecer si el fondo se coloca respecto a la caja o al viewport
+    scroll|fixed
+
+*/

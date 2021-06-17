@@ -1,0 +1,32 @@
+<!-- 4 formas de Incluir Css en un Html -->
+<html>
+    <head>
+       
+        <!--primera forma en el header-->
+        <style>
+        .hola{
+            color: brown
+            }
+        .img{
+            max-width: 100%;
+
+        }
+        </style>
+    </head>
+    <body>
+        <!--segunda forma dentro de la etiqueta-->
+        <p style="font-size: large">hola</p>
+        <p class="hola">script</p>
+        <!--tercera forma hoja externa-->
+        <link rel="stylesheet" href="intro.css">
+        <!--cuarta forma con @import (menos usado)-->
+        <div class="img">
+             <img class=""src="holas.jpg" alt="">
+        </div>
+       
+        <style>
+            @import url("styles.css");
+        </style>
+        
+    </body>
+</html>

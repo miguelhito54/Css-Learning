@@ -1,0 +1,17 @@
+/* variable = --var */
+:root{
+  --color:red;
+  --border: solid 3px black;
+}
+.paragraph{
+  color:var(--color);
+}
+input:checked + .box{
+  --color:purple;
+}
+.box{
+  width:2em;
+  height: 2em;
+  background: var(--color);
+  border: var(--border);
+}

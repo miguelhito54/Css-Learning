@@ -1,0 +1,121 @@
+/*
+Dynamic
+(links)
+  :link
+  :visited
+  :active
+
+  :focus
+  :hover
+*/
+
+.link:link{
+   color: red;
+}
+
+.link:hover{
+  color: white;
+  background: blue
+}
+
+.link:active{
+  color: blue;
+}
+
+/*...........................*/
+/*Ui States*/
+  /*
+  :enabled default
+  :disbled
+  :checked
+  :in-range
+  :out-of-range
+  :required
+  :optional
+  :valid
+  :invalid
+  */
+  input + label{
+    display: block;
+  }
+
+  input:enabled{
+
+  }
+  input:disabled{
+    display: block;
+    background:lime;
+  }
+  input:checked + label{
+    color: white;
+    background:gray;
+  }
+  input:in-range{
+    color: orange;
+  }
+  input:out-of-range{
+    color:red;
+  }
+  input:optional{
+    background: aliceblue;
+  }
+  input:required{
+    background: red;
+  }
+/*etc*/
+
+/*Structural*/
+  /*
+  :root
+  :empty
+
+  -child
+    :first-child
+    :last-child
+    :nth-child
+    :nth-last-child
+    :only-child
+  */
+  .paragraph{
+    background:coral;
+  }
+  /* .paragraph:empty{ */
+    /* all:unset; */
+  /* } */
+
+  /* child  */
+  .paragraph:first-child{
+    background:green;
+  }
+  .paragraph:last-child{
+    background:brown;
+  }
+  /* pairs */
+  .paragraph:nth-child(even){
+
+  }
+  /* non pairs  */
+  .paragraph:nth-child(odd){
+
+  }
+  /* int */
+  .paragraph:nth-child(3){
+    color: white;
+  }
+  /* equation n = 0,  ex: 4*0 = 0, 4*1= *4* element, 4*2= *8*element ,
+  ex: 4n, 3n + 1, n + 1 */
+  .paragraph:nth-child(4n){
+    font-size: 10px;
+  }
+  .paragraph:only-child{
+
+  }
+  /* element with the class paragraph */
+  .paragraph:nth-of-type(3){
+
+  }
+
+  /*NOT*/
+  .paragraph:not(div){
+    background:green;
+  }

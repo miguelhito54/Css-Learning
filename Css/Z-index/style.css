@@ -1,0 +1,31 @@
+[class ^=img]{
+  position: absolute;
+}
+
+.img-1{
+  width: 100%;
+}
+.img-2{
+  width: 30rem;
+  top:28rem;
+  left:30rem;
+  z-index: 700
+}
+.img-3{
+  width: 20rem;
+  left:20px;
+  top: 180px;
+  z-index: 300;
+}
+.img-4{
+  width: 40rem;
+  top: 24rem;
+  left:40rem;
+  z-index: 600;
+}
+.img-5{
+  width: 70rem;
+  top: 5rem;
+  left:40rem;
+  z-index: 500;
+}

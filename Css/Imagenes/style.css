@@ -1,0 +1,105 @@
+/*Hacer una imagen responsive de acuerdo al contenedor*/
+/* .colombia{
+    max-width: 100%;
+} */
+
+/*las imagenes son elementos inline por defecto*/
+
+.freddy-container{
+    background-color: red;
+    width: 20rem;
+    max-width: 100%;
+}
+.freddy{
+    
+    /*para quitar el espacio de abajo debido que las imagenes son inline*/
+    display: block;
+}
+.dog-container{
+
+}
+.dog{
+    max-width: 100%;
+    display: block;
+}
+.gato-container{
+  background-color: azure;
+
+}
+.gato{
+    max-width:100%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+/* centrado vertical con flexbox */
+.fish{
+    max-width: 100%;
+    display: block;
+    width: 20rem;
+    margin: 0;
+}
+.fish-container{
+    width: auto;
+    background-color: aquamarine;
+}
+
+ .coffe{
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down; /*none , cover, fill, etc*/
+    object-position: top;
+    background-color: bisque;
+ }
+ .coffe:hover{
+     object-position: bottom;
+ }
+ .filter{
+     filter: blur(20px);
+ }
+ .filter:hover{
+     filter: none;
+ }
+ .filter1{
+    filter: brightness(2);
+ }
+.filter2{
+    filter: contrast(3);
+}
+.filter3{
+    /* filter: drop-shadow(h-shadow v-shadow blur spread"no " color); */
+    filter: drop-shadow(20px 10px 10px rgb(41, 41, 41));
+}
+.filter4{
+    filter: grayscale(1);
+}
+.filter5{
+    filter: hue-rotate(240deg)
+}
+.filter6{
+    filter: invert(1);
+}
+.filter7{
+    filter: opacity(.1);
+}
+.filter8{
+    filter: saturate(2)
+}
+.filter9{
+    filter: sepia(9);
+}
+.box{
+    width: 20rem;
+    height: 20rem;
+    background-color: aquamarine;
+}
+.box-item{
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(255, 146, 146);
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+
+}
+
+

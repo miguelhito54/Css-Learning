@@ -1,0 +1,16 @@
+h1{
+  background: red
+}
+h2{
+  background: brown
+}
+.main-box{
+  width: 200px;
+  height: 200px;
+  background: lime;
+/*Box Parts*/
+  padding: 10px;
+  border: 2px solid blue;
+  margin: 20px;
+  outline: 10px solid red;
+}
