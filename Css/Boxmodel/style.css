@@ -1,16 +1,14 @@
-h1{
-  background: red
+body{
+  margin:0
 }
-h2{
-  background: brown
-}
+
 .main-box{
   width: 200px;
   height: 200px;
-  background: lime;
-/*Box Parts*/
+  background: brown;
   padding: 10px;
-  border: 2px solid blue;
-  margin: 20px;
-  outline: 10px solid red;
+  border: 5px solid aqua;
+  outline: 5px solid red;
+  margin:0;
 }
+

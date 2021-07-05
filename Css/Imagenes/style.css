@@ -10,18 +10,23 @@
     width: 20rem;
     max-width: 100%;
 }
+
 .freddy{
     
     /*para quitar el espacio de abajo debido que las imagenes son inline*/
     display: block;
 }
+
 .dog-container{
 
+
 }
+
 .dog{
     max-width: 100%;
     display: block;
 }
+
 .gato-container{
   background-color: azure;
 
@@ -100,6 +105,9 @@
     background-color: rgb(255, 146, 146);
     clip-path: polygon(50% 0, 0 100%, 100% 100%);
 
+}
+.box-item:hover{
+    
 }
 
 

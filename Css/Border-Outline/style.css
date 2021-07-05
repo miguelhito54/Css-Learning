@@ -1,88 +1,109 @@
-/* Border
-border-width
-    px|em|rem|%|....
-border-style
-    none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit;
-
-  Diff Bettween Browsers
-    thick
-    medium
-    thin
-
-border-color
-    css native|rgb|rgba|hsl|hsla|hexadecimal|transparent
-    
-border-top-(width | style | color)
-border-right-(width | style | color)
-border-bottom-(width | style | color)
-border-left-(width | style | color)
-*/
 [class*=box] {
     width: 200px;
     height: 200px;
-    margin: 2em;
+    margin: 1em;
 }
 
 .box1 {
-    background: yellowgreen;
-    border: 5px solid red;
-    border-top-width: 200px;
     border-top-color: transparent;
+    background: blueviolet;
+    border: 5px solid red;
 }
 
 .box2 {
-    background: lightseagreen;
-    border-left-width: 5px;
     border-left-style: dotted;
+    background: lightseagreen;
+    border-width: 5px;
     border-left-color: blue;
 }
 
 .box3 {
-    background: lightcoral;
     border: 5px dashed blue;
+    background: lightcoral;
 }
 
 .box4 {
-    background: yellowgreen;
     border: 5px double blue;
+    background: yellowgreen;
 }
 
 .box5 {
+    border: 5px groove;
     background: lightseagreen;
-    border: 5px groove blue;
 }
 
 .box6 {
+    border: 5px ridge;
     background: lightcoral;
-    border: 5px ridge blue;
 }
 
 .box7 {
+    border: 5px inset ;
     background: yellowgreen;
-    border: 5px inset blue;
 }
 
 .box8 {
+    border: 5px outset ;
     background: lightseagreen;
-    border: 5px outset blue;
+
 }
 
 .box9 {
+    border: 5px initial ;
     background: lightcoral;
-    border: 5px initial blue;
 }
 
 .box10 {
+    border: 5px inherit;
     background: yellowgreen;
-    border: 5px inherit blue;
-}
-
-.img-box{
-  width: 200px;
-  background: red;
 }
 img{
   border:5px solid purple;
   outline: 5px solid lightcoral;
   outline-offset:  -100px
 }
+/* 
+border-width
+    
+    px
+    em
+    rem
+    %....
+
+border-style
+    
+    none
+    hidden
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    initial
+    inherit;
+
+Diff Bettween Browsers
+    
+    thick
+    medium
+    thin
+
+border-color
+    css native
+    rgb
+    rgba
+    hsl
+    hsla
+    hexadecimal
+    transparent
+    
+border-top-(width | style | color)
+border-right-(width | style | color)
+border-bottom-(width | style | color)
+border-left-(width | style | color)
+
+Outline da la posibilidad de dibujar un borde por fuera del modelo de caja
+*/

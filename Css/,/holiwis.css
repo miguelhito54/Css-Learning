@@ -1,0 +1,12 @@
+.box{
+    width: 30px;
+    height: 30px;
+    background-color: salmon;
+    position: relative;
+}
+div .acheuno{
+    color:red
+}
+ p{
+    background-color: bisque;
+}
