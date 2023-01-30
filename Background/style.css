@@ -60,6 +60,7 @@ body{
   background-size: 8%, cover; 
   background-repeat: no-repeat;
   background-position: right;
+  background-blend-mode:screen;
 }
 /*
 background-color: Establece el color de fondo de la caja
@@ -83,6 +84,11 @@ background-repeat: Establece si la imagen se repite o no
     no-repeat
 
 
+background-attachment: permite establecer si el fondo se coloca respecto a la caja o al viewport
+    
+    scroll
+    fixed
+
 background-position: Establece la posicion de la imagen, si no se especifica un segundo valor será center
     
     left top
@@ -100,7 +106,6 @@ background-position: Establece la posicion de la imagen, si no se especifica un 
     inherit
 
 
-
 background-origin: Establece donde comienza el fondo
 Redimensiona la imagen para que ocupe la zona que le decimos
     
@@ -108,10 +113,7 @@ Redimensiona la imagen para que ocupe la zona que le decimos
     padding-box
     content-box
 
-background-attachment: permite establecer si el fondo se coloca respecto a la caja o al viewport
-    
-    scroll
-    fixed
+
 
 background-clip: Establece que parte de la caja rellenará el fondo
 Muestra la imagen desde donde le decimos, solo oculta, NO redimensiona
